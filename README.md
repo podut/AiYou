@@ -10,7 +10,7 @@ An Android app that automatically extracts the key ideas from videos (YouTube),
 organizes them by category and generates an **AI Resume** of the essential strategies —
 so you learn faster without watching everything end to end.
 
-[![Download APK](https://img.shields.io/badge/⬇️_Download-AiYou.apk-6C5CE7?style=for-the-badge)](../../releases/latest)
+[![Download APK](https://img.shields.io/badge/⬇️_Download-AiYou.apk-6C5CE7?style=for-the-badge)](../../releases/latest/download/AiYou.apk)
 ![Platform](https://img.shields.io/badge/Android-6.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Version](https://img.shields.io/badge/version-1.0-blue?style=for-the-badge)
 
@@ -20,7 +20,7 @@ so you learn faster without watching everything end to end.
 
 ## 📲 Installation
 
-1. Download **[`AiYou.apk`](../../releases/latest)** from the Releases section (or directly [from the repo](AiYou.apk)).
+1. Download **[`AiYou.apk`](../../releases/latest/download/AiYou.apk)** (the link starts the download right away — or grab it [from the repo](AiYou.apk)).
 2. On your phone, open the downloaded file.
 3. If a warning appears, allow installation from *unknown sources* for the app you opened the APK with (browser / file manager).
 4. Tap **Install** and open **AiYou**.
