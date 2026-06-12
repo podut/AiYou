@@ -49,14 +49,14 @@ ca să înveți mai repede și să nu pierzi timpul cu vizionarea integrală.
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="docs/screenshot-dashboard.png" alt="Dashboard" width="280" /><br/>
-      <b>Dashboard</b><br/>
-      <sub>Overview cu statistici și videoclipuri recente</sub>
-    </td>
-    <td align="center" width="50%">
       <img src="docs/screenshot-resume.png" alt="AI Resume" width="280" /><br/>
       <b>AI Resume</b><br/>
       <sub>Idei cheie extrase, pe categorii, cu rating</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshot-dashboard.png" alt="Dashboard" width="280" /><br/>
+      <b>Dashboard</b><br/>
+      <sub>Overview cu statistici și videoclipuri recente</sub>
     </td>
   </tr>
 </table>
@@ -66,6 +66,19 @@ ca să înveți mai repede și să nu pierzi timpul cu vizionarea integrală.
 <img src="docs/screenshot-tablet.png" alt="Vedere tabletă" width="640" /><br/>
 <b>Vedere pe tabletă</b> — layout adaptiv cu navigație laterală
 
+</div>
+
+---
+
+## ☸️ Infrastructură & Deploy
+
+Backend-ul AiYou rulează pe **Kubernetes**, livrat **GitOps** prin **Argo CD** —
+fiecare componentă (API, Elasticsearch, Istio, observabilitate, securitate) este o aplicație
+sincronizată automat din Git, cu status *Healthy / Synced*.
+
+<div align="center">
+<img src="docs/screenshot-argocd.png" alt="Argo CD Applications" width="860" /><br/>
+<sub>Argo CD — aplicațiile platformei (API AiYou, Elasticsearch, Istio, Gatekeeper, Vault, Grafana/Loki/Prometheus, Velero) sincronizate GitOps</sub>
 </div>
 
 ---
